@@ -75,7 +75,7 @@
     <!-- End header -->
 
      <div id="lead-content">
-            <!-- My main title name get typed here: PARAS VARSHNEY -->
+   
             <h1 id="typing_title"></h1>
 
             <!-- main description gets typed here: Data Scientist 👨‍🔬 -->
@@ -344,14 +344,14 @@
         <script>
 
               let request = new XMLHttpRequest();
-              const base_url = "https://api.github.com/users/Singa-codes/repos"
+              const base_url = "https://api.github.com/users/singatharun/repos"
               const per_page = 10
               const page_number = 1
               const sorting = "pushed"
 
               var total_commits = 0
 
-              const link_repo = "https://github.com/Singa-codes/"
+              const link_repo = "https://github.com/singatharun/"
               request.open("GET", base_url+"?per_page="+per_page+"&page="+page_number+"&sort="+sorting);
               request.send();
               request.onload = () => {
